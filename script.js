@@ -1,11 +1,12 @@
-document.addEventListener('DOMContentLoaded', function() {          // to manupulate whole DOM
+document.addEventListener('DOMContentLoaded', function() {          // To manupulate whole DOM
     const ingredientsList = document.getElementById('ingredientList');
     const newIngredientInput = document.getElementById('newIngredient');
 
     function addIngredient() {
         const ingredientName = newIngredientInput.value.trim();
 
-        if (ingredientName) {
+        // Add button
+        if (ingredientName) {   // To check if the input is empty
             const newIngredientItem = document.createElement('li');
             newIngredientItem.textContent = ingredientName + ' ';
 
