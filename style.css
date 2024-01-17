@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(34, 34, 34);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main {
+    background-image: url('pic.jpg');
+    height:100%;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0, 221, 255);
+    border-radius: 8px;
+    padding-left: 7%;
+    scale:0.99;
+}
+
+.main:hover{
+    scale:1.1;
+    transition: 0.5s;
+    padding:1%;
+    padding-left:5%;
+}
+
+h2 , ol{
+    color: whitesmoke;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgb(255, 2, 2);
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    margin:3%;
+    padding:2%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(0, 175, 0);
+    background-color: rgb(0, 175, 0);
+    transform: scale(1.1);
+}
+
+#ingredientList{
+    padding:1%;
+}
+
+details {
+    max-width: 400px;
+}
+
+.summary {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.summary:hover {
+    background-color: #30a936;
+}
+
+p1, p2 {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding:1%;
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
