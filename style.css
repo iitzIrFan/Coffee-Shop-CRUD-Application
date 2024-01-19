@@ -27,6 +27,13 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-shadow: 0 0 5px rgb(255, 2, 2);
+    scale:0.97;
+    transition: 0.5s;
+}
+
+input:hover{
+    scale:1.0;
+    transition: 1s;
 }
 
 .btn {
@@ -67,6 +74,8 @@ details {
 
 .summary:hover {
     background-color: #30a936;
+    scale: 0.95;
+    transition: 0.5s;
 }
 
 p1, p2 {
