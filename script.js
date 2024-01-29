@@ -52,3 +52,8 @@ document.addEventListener('DOMContentLoaded', function() {          // To manupu
     window.deleteIngredient = deleteIngredient;
     window.updateIngredient = updateIngredient;
 });
+
+// Disable context menu on the entire document
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
