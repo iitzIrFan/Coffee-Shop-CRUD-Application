@@ -49,3 +49,9 @@ document.addEventListener('DOMContentLoaded', function () {          // To manup
     window.deleteIngredient = deleteIngredient;
     window.updateIngredient = updateIngredient;
 });
+
+// Service worker
+if ("serviceWorker" in navigator) {
+    // register service worker
+    navigator.serviceWorker.register("service-worker.js");
+  }
